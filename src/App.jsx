@@ -3,10 +3,10 @@ import React, { useState } from 'react';
 
 const questions = [
   {
-    question: "Where is my accent from?",
+    question: "Where am I from?",
     options: ["Scotland", "England", "Ireland", "Australia"],
     answer: 2,
-    explanation: "Born and raised in Ireland — no mistaking that accent."
+    explanation: "Born and raised in Ireland"
   },
   {
     question: "Which of these PG stories didn't actually happen (yet)?",
@@ -23,19 +23,19 @@ const questions = [
     question: "What percentage of companies I've worked for have had successful exits?",
     options: ["0%", "33%", "66%", "100%"],
     answer: 2,
-    explanation: "66% — I've got a bit of a track record for picking winners."
+    explanation: "66% - 2 for 3 isn't bad."
   },
   {
     question: "I have video footage of me dancing with which NBA player at a concert?",
     options: ["Steph Curry", "Draymond Green", "Klay Thompson", "Kevin Durant"],
     answer: 3,
-    explanation: "Yep, that's me and KD. Unreal night."
+    explanation: "I'll show you the vid!"
   },
   {
     question: "I once generated how many views on a golf TikTok video?",
     options: ["10,000", "50,000", "150,000", "1 million"],
     answer: 2,
-    explanation: "150k views. Golf content hits when the vibe is right."
+    explanation: "Not gonna quit the day job."
   },
   {
     question: "What's the name of my 3-year-old son?",
