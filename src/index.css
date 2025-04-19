@@ -16,16 +16,19 @@
   .quiz-option {
     @apply relative overflow-hidden cursor-pointer px-4 py-3 rounded-xl border 
            transition-all duration-300 transform hover:scale-[1.02]
-           bg-white/5 backdrop-blur-sm border-white/10 shadow-lg
-           hover:bg-white/10 hover:border-white/20;
+           bg-slate-700/80 backdrop-blur-sm border-white/10 shadow-lg
+           hover:bg-slate-600/90 hover:border-white/20
+           text-white;
   }
 
   .quiz-option.correct {
-    @apply bg-green-500/20 border-green-500/30 hover:bg-green-500/30;
+    @apply bg-green-700/80 border-green-500/30 hover:bg-green-600/90
+           text-white;
   }
 
   .quiz-option.incorrect {
-    @apply bg-red-500/20 border-red-500/30 hover:bg-red-500/30;
+    @apply bg-red-700/80 border-red-500/30 hover:bg-red-600/90
+           text-white;
   }
 
   .btn {
